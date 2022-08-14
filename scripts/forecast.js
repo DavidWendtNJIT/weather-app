@@ -17,13 +17,3 @@ const getCity = async (city) => {
   const data = await response.json();
   return data[0];
 };
-
-// getCity("new york city")
-//   .then((data) => {
-//     return getWeather(data.Key);
-//   })
-//   .then((data) => {
-//     console.log(data);
-//   })
-//   .catch((err) => console.log(err));
-
